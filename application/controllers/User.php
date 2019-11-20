@@ -27,7 +27,7 @@
 			$response = ['status' => $status, 'data' => $data];
 
 			$this->response($response, $status);
-            return $this->returnData($this->db->get('users')->result(), false);
+            // return $this->returnData($this->db->get('users')->result(), false);
         }
 
         public function index_post($id = null) {
